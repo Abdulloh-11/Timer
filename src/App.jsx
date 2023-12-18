@@ -82,7 +82,7 @@ export default class App extends Component {
           second: second - 1,
         });
       }
-    }, 100);
+    }, 1000);
     this.setState({
       intervals: interval,
     });
